@@ -31,6 +31,25 @@ img {
   align-items: center;
 }
 
+@media (max-width: 800px) {
+  .s-header .wrapper {
+    padding: 0 1.4rem;
+  }
+}
+
+
+.mobile{
+  display: none;
+  margin-left: 4rem;
+  background: transparent;
+}
+
+@media (max-width: 800px) {
+  .mobile {
+    display: block;
+  }
+}
+
 .container {
   width: 100%;
   max-width: 800px;
@@ -52,11 +71,23 @@ nav ul {
   gap: 91px;
 }
 
+@media (max-width: 800px) {
+  nav ul {
+    display: none;
+  }
+}
+
 .btn-transparent {
   border: 2px solid black;
     padding: 10px 60px;
     border-radius: 10px;
     background: transparent;
+}
+
+@media (max-width: 800px) {
+  .btn-transparent {
+    display: none;
+  }
 }
 
 .s-hero {
@@ -67,6 +98,13 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .s-hero .wrapper {
+    flex-direction: column-reverse;
+    padding: 0 1.4rem;
+  }
 }
 
 .s-hero .area-image {
@@ -80,11 +118,25 @@ nav ul {
   height: 300px;
 }
 
+@media (max-width: 800px) {
+  .s-hero .area-text {
+    font-size: 10px;
+  }
+}
+
 .area-text .title {
   font-size: 32px;
   font-weight: 600;
   color: var(--black);
 }
+
+@media (max-width: 414px) {
+  .area-text .title{
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
 .s-hero .area-text .description {
   padding: 24px 0 48px;
 }
@@ -111,9 +163,25 @@ nav ul {
   gap: 124px;
 }
 
+@media (max-width: 800px) {
+  .s-tradicional .wrapper {
+    padding: 0 1.4rem;
+    flex-direction: column;
+  }
+}
+
+
 .s-tradicional .area-image {
   width: 500px;
   height: 500px;
+}
+
+@media (max-width: 500px) {
+  .s-tradicional .area-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
 }
 
 .s-tradicional .area-image img {
@@ -124,10 +192,25 @@ nav ul {
   padding: 24px 0 40px;
 }
 
+
+@media (max-width: 414px) {
+  .s-tradicional .area-text .description{
+    font-size: 16px;
+  }
+}
+
 .s-tradicional .area-text {
   width: 500px;
   height: 365px;
 }
+
+@media (max-width: 500px) {
+  .s-tradicional .area-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 .link {
   text-decoration: underline;
