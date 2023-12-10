@@ -84,11 +84,7 @@ nav ul {
 }
 
 @media (max-width: 800px) {
-<<<<<<< HEAD
-  nav ul{
-=======
   nav ul {
->>>>>>> 628a9e5d0f1ceaeb9a472f43bdf3897d96fbc7da
     display: none;
   }
 }
@@ -100,15 +96,9 @@ nav ul {
     background: transparent;
 }
 
-<<<<<<< HEAD
-@media (max-width: 800px){
-  .btn-transparent{
-    display:none;
-=======
 @media (max-width: 800px) {
   .btn-transparent {
     display: none;
->>>>>>> 628a9e5d0f1ceaeb9a472f43bdf3897d96fbc7da
   }
 }
 
